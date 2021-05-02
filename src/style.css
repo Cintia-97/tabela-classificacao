@@ -1,0 +1,115 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Permanent Maker';
+    min-height: 400px;
+    background-image: url('https://image.freepik.com/vetores-gratis/fundo-de-jogo-de-noite-dos-desenhos-animados_54887-12.jpg');
+    background-color: #111;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+table {
+    border: 5px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px; 
+    font-family: arial;
+}
+
+h1 {
+    color: white;
+}
+
+td, th, tr{
+  padding: 4px;
+  color: white;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 8px 20px ;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-1 {
+  background-color: #483D8B;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15%;
+  margin-bottom: 20px;
+}
+
+.btn-2 {
+  background-color: #483D8B;
+  border: none;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15%;
+  margin-top: 20px;
+}
+
+.Vitoria {
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #483D8B;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.Empate {
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #483D8B;
+  border-radius: 15px;
+  font-size: 20px;
+}
+
+.Derrota {  
+  padding: 15px 25px;
+  font-size: 10px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: #483D8B;
+  border-radius: 15px;
+  font-size: 20px;
+}

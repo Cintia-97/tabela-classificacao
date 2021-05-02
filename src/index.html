@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 06
+    </title>
+</head>
+
+<body>
+    <h1>Tabela de classificação</h1>
+<div>
+    <input type= "text" id="nome" name="nome" class="campo" placeholder="Digite o nome">
+     <input type= "text" id="foto" name="foto" class="campo" placeholder="Digite o endereço da foto">
+    <button onClick="adicionarJogador()" class="custom-btn btn-1">Adicionar</button>
+  </div>
+  
+    <table style="width:70%">
+        <thead>
+            <tr>
+                <th>Foto</th>
+                <th>Nome</th>
+                <th>Vitórias</th>
+                <th>Empates</th>
+                <th>Derrotas</th>
+                <th>Pontos</th>
+                <th colspan = "3">Ações</th>
+            </tr>
+        </thead>
+        <tbody id="tabelaJogadores">
+
+    </table>
+</body>
+<div id= deletar>
+            <button onClick="Resetar()" class="custom-btn btn-2"> Resetar</button>
+            </div>
+</html>
